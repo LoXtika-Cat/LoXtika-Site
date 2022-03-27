@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Noto+Sans&display=swap');
+
+body {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    background: url(../img/bg.gif);
+    background-position: fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+
+}
+
+html, body {
+    width: 100%;
+    height:100%;
+  }
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 10%;
+    margin: 0 auto;
+}
+
+.main-column {
+    margin: 3px;
+}
+
+.avatar {
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+}
+
+.main-name {
+  margin-left: 650px;
+    font-size: 70px;
+    cursor: text;
+}
+
+.main-text{
+  margin-left: 650px;
+    margin-top: 15px;
+
+}
+
+.main-buttons {
+  margin-left: 650px;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-button {
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 5px;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 10rem;
+    transition: .1s ease;
+    display: block;
+}
+
+.btn-discord {
+    color: #5865F2;
+    border: 2px solid #5865F2;
+}
+.btn-discord:hover {
+    color: white;
+    background-color: #5865F2;
+}
+
+.btn-insta {
+    color: #E1306C;
+    border: 2px solid #E1306C;
+}
+.btn-insta:hover {
+    color: white;
+    background-color: #E1306C;
+}
+.btn-tg {
+    color: #0088cc;
+    border: 2px solid #0088cc;
+}
+
+.btn-tg:hover {
+    color: white;
+    background-color: #0088cc;
+}
+
+.main-q {
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 33px;
+}
+
+
+@media (max-width:716px) {
+    .main {
+        text-align: center;
+        position: inherit;
+    }
+    .main-name {
+        font-size: 100px;
+    }
+    .main-buttons {
+        justify-content: center;
+    }
+    .main-q {
+        display: inline-flex;
+        justify-content: center;
+    }
+    canvas {
+        display: none;
+    }
+    html, body {
+        overflow: scroll !important;
+    }
+}
