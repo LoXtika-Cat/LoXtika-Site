@@ -1,2 +1,2 @@
 # LoXtika-Site
-Personal portfolio
+Personal  portfolio
